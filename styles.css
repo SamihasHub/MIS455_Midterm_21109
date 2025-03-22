@@ -218,7 +218,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: none;
-    padding: 20px;
+    padding: 10px;
   }
   .contactC {
     background: rgb(6, 1, 70);
@@ -227,7 +227,7 @@ button:hover {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-weight: bold;
-    height: auto;
+    height: none;
     color: #e1e6f5;
   }
   .contactInfo {

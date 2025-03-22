@@ -33,3 +33,19 @@ function selfCare() {
         alert("Please enter both name and email.");
     }
   }
+  function sendM(){
+    var nam1 = document.getElementById("nameBox").value;
+    var add1 = document.getElementById("addBox").value;
+    var eAdd = document.getElementById("emailBox").value;
+    var phn1 = document.getElementById("phoneBox").value;
+    var sms = document.getElementById("smsBox").value;
+  
+    var nam_1;
+    if (nam1 && add1 && eAdd && phn1 && sms ){
+       nam_1 = "Thank You for your Messasge!";
+    }
+    else{
+      nam_1 = "Please fill all the Boxes."
+    }
+    document.getElementById("charac").innerText = nam_1;
+  }
