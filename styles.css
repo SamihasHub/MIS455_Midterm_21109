@@ -165,4 +165,79 @@ button:hover {
     bottom: 100px;
     width: 100%;
     text-align: center;
+  }
+  .textS p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .grid-container {
+      display: grid;
+      grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+  }
+  .service {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+  }
+  .service img {
+      width: 500%;
+      border-radius: 5px;
+  }
+  .textC h4 {
+    color: rgb(86, 67, 2);
+    font-size: 50px;
+    font-weight: bold;
+    padding:auto;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .textC p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .grid-containerC {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: none;
+    padding: 20px;
+  }
+  .contactC {
+    background: rgb(6, 1, 70);
+    padding: 15px;
+    border-radius: none;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    height: auto;
+    color: #e1e6f5;
+  }
+  .contactInfo {
+    background: rgb(33, 29, 29);
+    padding: 15px;
+    border-radius: none;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    height: auto;
+    font-size: medium;
+    color: #e6c8c8;
   }  

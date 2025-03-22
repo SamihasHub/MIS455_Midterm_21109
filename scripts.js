@@ -23,3 +23,13 @@ function selfCare() {
         alert("Invalid Input.");
     }
   }
+  function suscbribeAlert() {
+    var name = prompt("Enter your name:");
+    var email = prompt("Enter your email:");
+    
+    if (name && email) {
+        alert(`Thank you, ${name}! We will reach out to you.`);
+    } else {
+        alert("Please enter both name and email.");
+    }
+  }
