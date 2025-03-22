@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#e1e6f5 ;
+}
+header{
+    background-color:aliceblue;
+    color: rgb(0, 0, 0);
+    text-align-last:justify;
+    padding: 2px;
+}
+footer {
+    background-color:aliceblue;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.nav-icon {
+    width: 20%;
+    height: 20%;
+    margin-right: 15px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    color: rgb(18, 11, 83);
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav ul li a:hover {
+    color: rgb(167, 78, 180);
+    opacity: 90;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background-color: #d9ddea;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(84, 129, 157);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(167, 78, 180)
+}
+.container {
+    padding: 20px;
+    background-color: #e1e6f5;
+  }
+  
+.containerS {
+    padding: 20px;
+    background-color: #e1e6f5;
+    margin-bottom: 2px;
+  }  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: auto;
+    justify-content: center;
+  }
+  
+  .product {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 2px 5px rgba(138, 93, 93, 0.1);
+    padding: 20px;
+    width: 220px;
+    text-align: left;
+  }
+  .product-grid :hover{
+    background-color: #87a5b0;
+  }
+  .product img {
+    
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product h5 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+  * {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
